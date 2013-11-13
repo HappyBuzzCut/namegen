@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>NameGen jQuery Test</title>
+	
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body style="background-color:black;">
+<div id="names" style="max-width:300px;"></div>
+
+<div id="form">
+<label for="male" style="color:white;">Male</label>
+<input type="radio" name="sex" id="male" value="male" checked/>
+<label for="female" style="color:white;">Female</label>
+<input type="radio" name="sex" id="female" value="female"/>
+<div>
+<label for="namegen" style="color:white;">Number of names to generate: </label>
+<input type="text" id="namegen" name="quantity" value="5"/>
+</div>
+<input type="submit" name="Generate" id="generate" />
+<img id="modal" src="http://i.stack.imgur.com/FhHRx.gif" alt="Waiting Icon" width="20" height="20" style="display:none;"/>
+</div>
+
+</body>
+</html>
