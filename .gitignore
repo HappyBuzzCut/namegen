@@ -1,3 +1,6 @@
+#We don't need to update the database connection string.  Default should work fine
+include/db.inc
+
 #################
 ## Eclipse
 #################
